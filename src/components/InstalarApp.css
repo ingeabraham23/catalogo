@@ -1,0 +1,23 @@
+.button-app {
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  margin: 16px auto;
+  padding: 14px 20px;
+
+  border: none;
+  border-radius: 12px;
+
+  background: #317efb;
+  color: #fff;
+
+  font-size: 16px;
+  font-weight: 600;
+
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+.button-app:active {
+  transform: scale(0.98);
+}
